@@ -1,0 +1,112 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  --------------------
+  Body
+  --------------------
+*/
+body{
+  background: url("https://c1.staticflickr.com/6/5093/5401468617_160747e151_b.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#container{
+  border: 2px solid black;
+  width: 960px;
+  height: 500px;
+  margin: auto;
+}
+
+/*
+  --------------------
+  Form Details
+  --------------------
+*/
+.form-outline{
+  margin: 5% auto;
+  height: 70%;
+  width: 30%;
+  min-width: 300px;
+  background-color: rgba(249,249,249, .9);
+  border-radius: 10px;
+}
+
+.button,
+.sign-up{
+  font: 300 20px "Helvetica Neue", sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.description{
+  margin-top: 10px;
+}
+
+.user-info{
+  font: 200 16px "Helvetica Neue", sans-serif;
+}
+
+.user-info label{
+  margin: 5px auto;
+}
+
+.user-info input{
+  width: 100%;
+  margin: 2px 0;
+  border-radius: 2px;
+}
+
+form{
+  padding: 0 12% 7% 12%;
+}
+
+.button:hover{
+  text-decoration: underline;
+}
