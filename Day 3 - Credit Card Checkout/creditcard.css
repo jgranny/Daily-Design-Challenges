@@ -45,3 +45,184 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*
+  --------------------
+  Clearfix
+  --------------------
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  --------------------
+  Columns
+  --------------------
+*/
+.col-1-3 {
+  width: 30%;
+}
+
+.col-2-3 {
+  width: 60%;
+  border-right: 1px solid gray;
+}
+
+.col-1-3,
+.col-2-3 {
+  margin: 1.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*
+  --------------------
+  Button
+  --------------------
+*/
+.button{
+  font: 200 24px "Helvetica Neue", sans-serif;
+  width: 33%;
+  margin-top: 15%;
+  text-align: center;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: gray;
+}
+
+.button:hover{
+  background-color: #d3d3d3;
+}
+
+/*
+  --------------------
+  Body
+  --------------------
+*/
+body {
+  min-width: 960px;
+}
+
+.primary-header {
+  font: 300 40px "Helvetica Neue", sans-serif;
+  color: white;
+  text-align: center;
+  background-color: gray;
+  height: 75px;
+}
+
+.primary-footer {
+  background-color: gray;
+  height: 75px;
+}
+
+form {
+  font: 200 20px/1.5 "Helvetica Neue", sans-serif;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: block;
+  margin: 1% 0;
+}
+
+.inline-inputs {
+  float: left;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.description {
+  margin-bottom: -1%;
+}
+
+.checkbox-stmt {
+  font: 200 15px "Helvetica Neue", sans-serif;
+}
+
+.billing-shipping-info {
+
+}
+
+.billing-shipping-info,
+.credit-card-info {
+  margin: 1.5%;
+}
+
+/*
+  --------------------
+  Textbox Formatting
+  --------------------
+*/
+.name,
+.email {
+  width: 25%;
+}
+
+.address {
+  width: 35%;
+}
+
+.city {
+  width: 15%;
+}
+
+.state {
+  width: 5%;
+}
+
+.zip {
+  width: 7%;
+}
+
+.card-name,
+.card-number {
+  width: 50%;
+}
+
+.security-code {
+  width: 10%;
+}
+
+.name,
+.email,
+.address,
+.city,
+.state,
+.zip,
+.card-name,
+.card-number,
+.security-code {
+  font: 200 16px/1.5 "Helvetica Neue", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
