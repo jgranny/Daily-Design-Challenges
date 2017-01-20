@@ -48,11 +48,21 @@ table {
 
 /*
   --------------------
-  Rows, Columns, & Grid
+  Body
   --------------------
 */
 body{
+  background-image: url("http://worldonline.media.clients.ellingtoncms.com/img/videothumbs/2009/10/14/ku_allen_fieldhouse_renovations_04.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   background-color: #dbdbdb;
+}
+
+#wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 960px;
 }
 
 /*
