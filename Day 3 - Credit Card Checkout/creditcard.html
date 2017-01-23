@@ -7,14 +7,6 @@
   </head>
 
   <body>
-    <!--
-    Billing,
-    Shipping,
-    Name,
-    Card Number,
-    Security Code,
-    Exp Date
-    -->
     <header class="primary-header">
       <h1>Check-out</h1>
     </header>
@@ -23,6 +15,7 @@
       
       <form class="billing-shipping-info">
         <fieldset>
+          <div class="form-description">Billing Info</div>
           <label>
             <p class="description">Name</p>
             <input type="text" name="name" class="name">
@@ -41,12 +34,13 @@
             <input type="text" name="state" value="state" class="state">
             <input type="text" name="zip" value="zip" class="zip">
           </label>
-        </fieldset>
-        <fieldset>
           <label>
-            <p class="checkbox-stmt">Same as Billing</p>
-            <input type="checkbox" name="same-as-billing" value="Same as Billing">
+            <p class="checkbox-stmt">Shipping Same as Billing</p>
+            <input type="checkbox" value="Same as Billing" checked="checked" id="checkbox">
           </label>
+        </fieldset>
+        <fieldset id="shipping-section">
+          <div class="form-description">Shipping Info</div>
           <label>
             <p class="description">Name</p>
             <input type="text" name="name" class="name">
@@ -70,6 +64,7 @@
 
       <form class="credit-card-info">
 	    <fieldset>
+	      <div class="form-description">Credit Card Info</div>
 	      <label>
 	        <p class="description">Name on Card</p>
 	        <input type="text" name="name-on-card" class="card-name">
@@ -122,6 +117,9 @@
 
     <footer class="primary-footer">
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="script.js"></script>
   </body>
 
 </html>
