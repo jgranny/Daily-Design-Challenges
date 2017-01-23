@@ -144,16 +144,27 @@ input {
   display: inline-block;
 }
 
+.form-description {
+  margin-bottom: 1%;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#shipping-section {
+  display: none;
+}
+
 .description {
   margin-bottom: -1%;
 }
 
 .checkbox-stmt {
   font: 200 15px "Helvetica Neue", sans-serif;
+  margin-top: 5%;
 }
 
 .billing-shipping-info {
-
+  min-height: 750px;
 }
 
 .billing-shipping-info,
